@@ -2,6 +2,7 @@ require_relative 'spec_helper.rb'
 
 describe "Associations" do
   before do
+    # Dog.all.clear
     @owner = Owner.new("Timmy")
   end
 
